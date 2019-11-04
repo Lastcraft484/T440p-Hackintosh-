@@ -1,5 +1,7 @@
 # T440p - Hackintosh Guide
 
+-This project is as is and does not provide any support from me but if you head over [here](https://discord.gg/t7Tykuf) this discord server is all about providing support for hackintoshes.
+
 ### Overview
 
 - This guide references a few other guides. Credit for those guides is given to their respective owners.
@@ -11,9 +13,6 @@
 # Guide
 
 ![](https://github.com/evy0311/t440p/raw/master/Guide%20Stuff/T440p_Day.png)
-
-![](https://img.shields.io/github/issues/evy0311/t440p.svg) ![](https://img.shields.io/github/forks/evy0311/t440p.svg) ![](https://img.shields.io/github/stars/evy0311/t440p.svg) ![](https://img.shields.io/github/license/evy0311/t440p.svg) ![](https://img.shields.io/twitter/url/https/github.com/evy0311/t440p.svg?style=social)
-
 
 ## Information
 ##### What works:
@@ -80,6 +79,15 @@ In order to get audio to work, there are a few simple steps we need to follow. T
 4. The provided `config.plist` has already been configured to inject *Audio Layout* ID `28`. This enables the headphone jack to work.
 5. Restart and enjoy your audio from the headphone jack!
 
+##### Getting wifi working 
+-First you will need to do a bios mod to remove the wifi whitelist using [this](https://www.amazon.com/AiTrip-CH341A-EEPROM-Programmer-Adapter/dp/B07WGXF12T/ref=asc_df_B07WGXF12T/?tag=hyprod-20&linkCode=df0&hvadid=366343882692&hvpos=1o1&hvnetw=g&hvrand=14206465182420067327&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9016853&hvtargid=pla-819209743388&psc=1&tag=&ref=&adgrpid=76503872296&hvpone=&hvptwo=&hvadid=366343882692&hvpos=1o1&hvnetw=g&hvrand=14206465182420067327&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9016853&hvtargid=pla-819209743388) then giving your dump to a modder on biosmods.com 
+-once you have flashed your bios you have a few options for wifi cards
+- I recomend you get a dw1560 for ease of use and as of writing this it is about 60 dollars on ebay
+- I have gone for a dw1820a for about 10 dollars
+- This card is a hassle to get to work on windows and mac os so I dont reccomend it.
+- [here](https://github.com/ameeno/DELL-DW1820A-Drivers/tree/master/Windows%2010) is the reop for the drivers I used on mac os and windows
+
+
 ##### Customizing About This Mac
 
 In order to customize the About This Mac section, I recommend you follow the guide [Here](https://github.com/Haru-tan/Hackintosh-Things/blob/master/AboutThisMacMojave.md "Here").
@@ -90,4 +98,4 @@ For the section about changing the logo, you can use the T440p logo's I have des
 
 Since Apple only uses Synaptics trackpads in their Macbook's, a non-synaptics trackpad will have problems getting things like gestures to work, as well as the popular "middle button scrolling" used on Thinkpads (combination of pressing the middle button and using the Trackpoint to scroll). If you're like me, I ordered the Alps varient of the upgraded T450 trackpad, which the VoodooPS2Controller kext does not support gestures for. In order to "fake" the middle button scrolling, we need to download an app called [Smart Scroll](http://www.marcmoini.com/sx_en.html). Once this is done, go to the "vector scroll" section, and enable it. Then, if you clikc the middle button, you can now scroll down by using the trackpoint. This is unfortunetely only a temporary solution as it doesn't behave the same. Thanks to Redit user [daftguy](https://www.reddit.com/user/daftguy) for finding this solution. 
 
-## More to come...
+## I will continue to change this guide as I update my laptop.
