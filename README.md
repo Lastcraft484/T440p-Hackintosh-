@@ -2,6 +2,8 @@
 
 -This project is as is and does not provide any support from me but if you head over [here](https://discord.gg/t7Tykuf) this discord server is all about providing support for hackintoshes.
 
+-this is a modification of https://github.com/evy0311/t440p-hackintosh this guide has not updated its kexts correctly and did not have information on wifi card installation.
+
 ### Overview
 
 - This guide references a few other guides. Credit for those guides is given to their respective owners.
