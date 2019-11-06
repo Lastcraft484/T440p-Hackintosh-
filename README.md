@@ -89,6 +89,14 @@ In order to get audio to work, there are a few simple steps we need to follow. T
 - This card is a hassle to get to work on windows and mac os so I dont reccomend it.
 - [here](https://github.com/ameeno/DELL-DW1820A-Drivers/tree/master/Windows%2010) is the reop for the drivers I used on mac os and windows
 
+##### Wifi update
+
+-I got a [A/E M.2 Adapter](https://www.aliexpress.com/item/4000026569596.html?spm=a2g0o.detail.1000060.1.4d735ca3q74JUL&gps-id=pcDetailBottomMoreThisSeller&scm=1007.13339.128551.0&scm_id=1007.13339.128551.0&scm-url=1007.13339.128551.0&pvid=a962573f-c7cb-4c2b-a4d0-0b7896bde4a9) instead of using the dw1820a because while I was taking the card out to test speeds compared to my intel card I broke the antenna connection. 
+
+- To go along with the A/E M.2 Adapter I also got a [MacBook Air 802.11ac](https://www.ebay.com/i/173278201257?chn=ps&norover=1&mkevt=1&mkrid=711-117182-37290-0&mkcid=2&itemid=173278201257&targetid=595232406189&device=c&mktype=pla&googleloc=9016853&poi=&campaignid=2086170139&mkgroupid=80119577747&rlsatarget=pla-595232406189&abcId=1141016&merchantid=136055689&gclid=Cj0KCQiA2ITuBRDkARIsAMK9Q7Ptwak9C3vL-qSYDPM9Nj4OSIMdiAUF_Eyffn3z13xHzUnMteX-kWEaAtHrEALw_wcB) to go in the adapter 
+
+- The card works native in Mac os, and Windows. I am not sure about Linux as I have not tried yet because I can still fit my intel card in so I just use that.
+
 
 ##### Customizing About This Mac
 
