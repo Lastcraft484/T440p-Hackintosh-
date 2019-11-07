@@ -88,6 +88,8 @@ In order to get audio to work, there are a few simple steps we need to follow. T
 - I have gone for a dw1820a for about 10 dollars
 - This card is a hassle to get to work on windows and mac os so I dont reccomend it.
 - [here](https://github.com/ameeno/DELL-DW1820A-Drivers/tree/master/Windows%2010) is the reop for the drivers I used on mac os and windows
+- I have included the drivers above in this repo and I will be sure to update them as new versions of mac os come out.
+-As of 7/11/19 the card works in catalina but oh my lord is it a hassle to get working just go with the dw1560
 
 ##### Wifi update
 
