@@ -99,6 +99,17 @@ In order to get audio to work, there are a few simple steps we need to follow. T
 
 - The card works native in Mac os, and Windows. I am not sure about Linux as I have not tried yet because I can still fit my intel card in so I just use that.
 
+#### Wifi solution simple
+
+In the folder I have listed the efi is configured to support the dw1560 out of the box and I figured most people are going to be using this chip out of simplicity. I was able to borrow a a dw1560 for a few days so I could configure the repo correctly.
+Continuity works and so does bluetooth and wifi. (For continuity to function correctly you need to also have icloud and a supported ios device)
+
+#### Trackpad update
+
+I have done some work and gotten the trackpad functioning with good scroll and gesture support. Out of the box you will be stuck on force click but if you can manage to get to settings just go into touchpad settings and disable force touch. Other than that the touch pad works just as good as in windows and should function without issue. If any issues do arise email me at a@bustos.org
+
+#### A note about One key HiDPI
+- you may experience a glitch when booting where the apple logo is large than it should be. this is just a byproduct of the script. The script allows you to have the same resolution settings as on a MBP so it has to set the resolution accordingly for a second on boot. 
 
 ##### Customizing About This Mac
 
