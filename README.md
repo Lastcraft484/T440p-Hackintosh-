@@ -121,4 +121,7 @@ For the section about changing the logo, you can use the T440p logo's I have des
 
 Since Apple only uses Synaptics trackpads in their Macbook's, a non-synaptics trackpad will have problems getting things like gestures to work, as well as the popular "middle button scrolling" used on Thinkpads (combination of pressing the middle button and using the Trackpoint to scroll). If you're like me, I ordered the Alps varient of the upgraded T450 trackpad, which the VoodooPS2Controller kext does not support gestures for. In order to "fake" the middle button scrolling, we need to download an app called [Smart Scroll](http://www.marcmoini.com/sx_en.html). Once this is done, go to the "vector scroll" section, and enable it. Then, if you clikc the middle button, you can now scroll down by using the trackpoint. This is unfortunetely only a temporary solution as it doesn't behave the same. Thanks to Redit user [daftguy](https://www.reddit.com/user/daftguy) for finding this solution. 
 
-## I will continue to change this guide as I update my laptop.
+## A note about Catalina
+- I will update to Catalina once it becomes stable on Apple's own hardware 
+
+- Right now you should be able to update to Catalina fine but you will need a newer pci id patch for the dw1560 if you use that card. 
