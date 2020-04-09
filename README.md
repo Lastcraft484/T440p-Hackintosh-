@@ -124,3 +124,9 @@ Since Apple only uses Synaptics trackpads in their Macbook's, a non-synaptics tr
 - I will update to Catalina once it becomes stable on Apple's own hardware 
 
 - Right now you should be able to update to Catalina fine but you will need a newer pci id patch for the dw1560 if you use that card. 
+
+
+## 4/9/20
+- I am still on Mojave because I still use a few 32-bit applications 
+
+- I am planning on updating this guide once I update to catalina but in the meantime jloisel has Catalina working and you can visit his guide [here](https://github.com/jloisel/t440p)
