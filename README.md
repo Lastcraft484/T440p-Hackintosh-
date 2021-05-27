@@ -105,7 +105,7 @@ Continuity works and so does bluetooth and wifi. (For continuity to function cor
 
 #### Trackpad update
 
-I have done some work and gotten the trackpad functioning with good scroll and gesture support. Out of the box you will be stuck on force click but if you can manage to get to settings just go into touchpad settings and disable force touch. Other than that the touch pad works just as good as in windows and should function without issue. If any issues do arise email me at a@bustos.org
+I have done some work and gotten the trackpad functioning with good scroll and gesture support. Out of the box you will be stuck on force click but if you can manage to get to settings just go into touchpad settings and disable force touch. Other than that the touch pad works just as good as in windows and should function without issue.
 
 #### A note about One key HiDPI
 - you may experience a glitch when booting where the apple logo is large than it should be. this is just a byproduct of the script. The script allows you to have the same resolution settings as on a MBP so it has to set the resolution accordingly for a second on boot. 
