@@ -13,8 +13,6 @@
 
 # Guide
 
-![image](https://github.com/evy0311/t440p/raw/master/Guide%20Stuff/T440p_Day.png)
-
 ## Information
 ##### What works:
 - Power management/sleep
